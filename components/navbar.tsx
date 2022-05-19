@@ -16,7 +16,9 @@ const Navbar = () => {
                         <li className={styles.list}>Skills</li>
                     </Link>
                 </ul>
-                <button id='switcher' className={styles['theme-switcher']}>🌙</button>
+                <button id='switcher' className={styles['theme-switcher']}>
+                    <img style={{ width: '1.5rem' }} id='btnImg' src="/moon.svg" alt="moon" />
+                </button>
             </nav>
         </div>
     )
