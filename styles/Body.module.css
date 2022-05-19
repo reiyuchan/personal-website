@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  background-color: indianred;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 9rem;
+  padding: 1rem;
+  color: black;
+  border-radius: 10px;
+  user-select: none;
+  flex-direction: column;
+}
+
+.container .headings {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.container .paragraphs {
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  font-size: 21px;
+  margin-left: 2rem;
+  margin-bottom: 0px;
+}
+
+.container .paragraphs .anchors:hover {
+  color: antiquewhite;
+}
+
+.container .paragraphs .anchors:active {
+  color: black;
+}
