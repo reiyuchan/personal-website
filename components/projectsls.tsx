@@ -7,8 +7,6 @@ const ProjectsLs = (props: BodyProps) => {
             <main className={styles.container}>
                 <h2 className={styles.headings}>{props.head1}</h2>
                 <ul style={{ width: '100%', padding: '2px' }}>
-                    <li className={styles.paragraphs}><a className={styles.anchors} href='https://reiyuchan.github.io/productpage/' target={'_blank'} rel='noreferrer'>{props.p1}</a></li>
-                    <li className={styles.paragraphs}><a className={styles.anchors} href='https://reiyuchan.github.io/jobform/' target={'_blank'} rel='noreferrer'>{props.p2}</a></li>
                     <li className={styles.paragraphs}><a className={styles.anchors} href='https://github.com/reiyuchan/CustomRP' target={'_blank'} rel='noreferrer'>{props.p3}</a></li>
                     <li className={styles.paragraphs}><a className={styles.anchors} href='https://github.com/reiyuchan/my-first-discord-bot' target={'_blank'} rel='noreferrer'>{props.p4}</a></li>
                     <li className={styles.paragraphs}><a className={styles.anchors} href='https://github.com/reiyuchan/pokedex' target={'_blank'} rel='noreferrer'>{props.p5}</a></li>
