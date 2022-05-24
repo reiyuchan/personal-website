@@ -20,6 +20,7 @@
   font-family: 'Arial Narrow', Arial, sans-serif;
   font-size: 21px;
   margin-left: 2rem;
+  margin-top: 0.5rem;
   margin-bottom: 0px;
 }
 
@@ -29,4 +30,11 @@
 
 .container .paragraphs .anchors:active {
   color: black;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 80%;
+    overflow: auto;
+  }
 }
