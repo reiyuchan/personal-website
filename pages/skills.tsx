@@ -10,8 +10,6 @@ const Skills: NextPage = () => {
         <div>
             <Head>
                 <title>Portofolio - Skills</title>
-                <meta name='description' content='Resume Page/Portofolio App' />
-                <link rel='icon' href='/favicon.ico' />
             </Head>
             <Navbar />
             <SkillLs {...skillsProps} />

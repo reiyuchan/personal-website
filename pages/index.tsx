@@ -10,8 +10,6 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <title>Portofolio - Home</title>
-        <meta name='description' content='Resume Page/Portofolio App' />
-        <link rel='icon' href='/favicon.ico' />
       </Head>
       <Navbar />
       <Body {...homeProps} />
