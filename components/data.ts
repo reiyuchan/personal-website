@@ -1,14 +1,5 @@
-interface BodyProps {
-  head1?: string;
-  p1?: string;
-  head2?: string;
-  p2?: string;
-  p3?: string;
-  p4?: string;
-  p5?: string;
-  p6?: string;
-  p7?: string;
-}
+import type { BodyProps } from "../types/data";
+
 const homeProps: BodyProps = {
   head1: 'About Me',
   p1: "I'm a computer science student who is passionate about programming and technology.",
@@ -37,5 +28,4 @@ const skillsProps: BodyProps = {
   p7: 'C#',
 };
 
-export type { BodyProps };
 export { homeProps, projectsProps, skillsProps };
