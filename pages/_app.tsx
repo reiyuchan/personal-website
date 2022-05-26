@@ -1,13 +1,10 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
-import { useEffect } from 'react'
-import { switcher } from '../utils/themeswitcher'
+import { useThemeSwitcher } from '../hooks/useThemeSwitcher'
 
 function MyApp({ Component, pageProps }: AppProps) {
-  useEffect(() => {
-    switcher();
-  })
+  useThemeSwitcher();
   return (
     <>
       <Head>
