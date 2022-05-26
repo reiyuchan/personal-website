@@ -1,4 +1,4 @@
-import type { BodyProps } from './data';
+import type { BodyProps } from '../types/data';
 import styles from '/styles/Body.module.css';
 
 const Body = (props: BodyProps) => {
