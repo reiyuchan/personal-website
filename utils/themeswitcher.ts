@@ -1,16 +1,9 @@
-let defaultTheme = true;
 
 const switcher: any = () => {
   const root = document.querySelector('html') as HTMLHtmlElement;
   const button = document.querySelector('#switcher') as HTMLButtonElement;
   const buttonImage = document.querySelector('#btnImg') as HTMLImageElement;
   const githubLogo = document.querySelector('#logo') as HTMLImageElement;
-
-  if (defaultTheme) {
-    localStorage.setItem('theme', 'dark');
-    githubLogo.src = '/GitHub-Mark-Light-64px.png';
-    defaultTheme = !defaultTheme;
-  }
 
   const theme = localStorage.getItem('theme');
 
